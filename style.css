@@ -248,6 +248,36 @@ list-style: none;
     }
 }
 
+@media (max-width:500px){
+    .responsive {
+        position: absolute;
+        left: 45%;
+        top: 16%;
+    }
+    
+    .responsive label{
+        width: 41px;
+        height: 17px;
+        padding: 3px;
+    }
+    
+   .responsive label .ball {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+   }
+
+   .bx-moon{
+    font-size: 14px;
+   }
+
+   .bx-sun {
+    font-size: 14px;
+   }
+}
+
 body.dark{
   background:#232c35 ;
   color: #fff;  
@@ -269,9 +299,9 @@ body.dark{
         padding: 5px;
         position: absolute;
         top: 7%;
-        left: 10%;
-        height: 22px;
-        width: 45px;
+        left: 5%;
+        height: 25px;
+        width: 50px;
         transform: scale(1.5);
     }
 
@@ -281,8 +311,8 @@ body.dark{
     position:absolute;
     top: 2px;
     left: 2px;
-    height: 18px;
-    width: 18px;
+    height: 21px;
+    width: 21px;
     transform: translateX(0px);
     transition: transform 0.2s linear;
 }
@@ -293,8 +323,11 @@ body.dark{
 
 .bx-moon{
     color: #0f97f1;
+    
+    
 }
 
 .bx-sun {
     color:#f39c12 ;
+   
 }
