@@ -251,8 +251,8 @@ list-style: none;
 @media (max-width:500px){
     .responsive {
         position: absolute;
-        left: 45%;
-        top: 10%;
+        left: 82%;
+        top: 5%;
     }
     
     .responsive label{
